@@ -24,6 +24,7 @@ docker run -d -p 6800:6800 -v /path/app:/app germey/scrapyd
 requests, selenium, aiohttp, beautifulsoup4, pyquery, pymysql, redis, pymongo, flask, django, scrapy, scrapyd, scrapyd-client, scrapy-redis, scrapy-splash
 ```
 
+
 ## 关于包
 
 虽然包括了一些包，不过遇到不包含的包还是可以使用以下命令安装到本地包：
