@@ -1,12 +1,12 @@
 version: "2.1"
 services:
   scrapyd:
-#    image: germey/scrapyd:latest
+#    image: napoler/scrapyd:latest
     build:
       context: ./
-    container_name: scrapyd
+    container_name: scrapyd1
     #network_mode: host
-    volumes:
+#    volumes:
       #- /path/app:/app
     ports:
       - 6800:6800
