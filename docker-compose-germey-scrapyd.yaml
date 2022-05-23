@@ -10,7 +10,6 @@ services:
     ports:
       - 6800:6800
     restart: unless-stopped
-
   gerapy:
     image: germey/gerapy:latest
     container_name: gerapy
