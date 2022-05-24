@@ -6,6 +6,32 @@
 
 ## docker-compose bulid 
 
+
+
+```commandline
+
+version: "2.11"
+services:
+  scrapyd:
+    image: napoler/scrapyd:2.11
+    container_name: scrapyd1
+    #network_mode: host
+    volumes:
+      - /data/scrapyd1:/app
+    ports:
+      - 6801:6800
+    restart: unless-stopped
+
+
+
+
+
+```
+
+
+
+
+
 ```commandline
 cd app
 docker-compose up
