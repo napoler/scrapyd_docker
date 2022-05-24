@@ -2,7 +2,9 @@ version: "2.1"
 services:
   scrapyd:
 #    image: napoler/scrapyd:latest
-    image: napoler/scrapyd:v0.1
+    # image: napoler/scrapyd:v0.1
+    build:
+      context: ./
     container_name: scrapyd1
     #network_mode: host
 #    volumes:
@@ -10,4 +12,14 @@ services:
     ports:
       - 6800:6800
     restart: unless-stopped
-
+#
+#  gerapy:
+#    image: germey/gerapy:latest
+#    container_name: gerapy
+#    #network_mode: host
+#    volumes:
+#      - /data/gerapy:/app/gerapy
+#      - /data:/data
+#    ports:
+#      - 8001:8000
+#    restart: unless-stopped
