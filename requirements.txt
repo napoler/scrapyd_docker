@@ -32,7 +32,7 @@ tkitreadability==0.0.0.5.1
 #tkitscrapymongopipeline==0.0.0.116515135
 #pymongo==4.1.1
 # conda install redis requests selenium
-psycopg2-binary==2.8.4
+# psycopg2-binary==2.8.4
 #pymongo=3.12
 # pymongo=3.10.1
 # PyMySQL==0.9.3
