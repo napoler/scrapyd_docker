@@ -21,7 +21,7 @@ jobs:
       #run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
       run: docker build . --file Dockerfile --tag $IMAGE_NAME
     - name: Log into registry
-      run: echo "${{ secrets.DOCKERPASSWORD }}" | docker login -u napoler --password-stdin
+      run: echo "${{ secrets.DOCKERHUB_LOGIN_PASSWORD }}" | docker login -u napoler --password-stdin
     - name: Push image
       run: |
         # 拼接镜像 id，这个镜像 id 就是在使用 docker 镜像时 pull 后面的名字。
