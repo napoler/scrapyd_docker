@@ -1,5 +1,6 @@
 name: base
 channels:
+  - conda-forge
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/linux-64/
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
@@ -9,24 +10,89 @@ channels:
 dependencies:
   - _libgcc_mutex=0.1=main
   - _openmp_mutex=5.1=1_gnu
+  - appdirs=1.4.4=pyh9f0ad1d_0
+  - attrs=21.4.0=pyhd8ed1ab_0
+  - automat=20.2.0=py_0
+  - bcrypt=3.2.2=py310h5764c6d_0
+  - beautifulsoup4=4.11.1=py310h06a4308_0
+  - botocore=1.27.28=py310h06a4308_0
+  - brotlipy=0.7.0=py310h5764c6d_1004
   - bzip2=1.0.8=h7b6447c_0
   - ca-certificates=2022.07.19=h06a4308_0
   - certifi=2022.6.15=py310h06a4308_0
+  - cffi=1.15.0=py310hd667e15_1
+  - charset-normalizer=2.1.0=pyhd8ed1ab_0
+  - constantly=15.1.0=py_0
+  - cryptography=35.0.0=py310h685ca39_2
+  - cssselect=1.1.0=py_0
+  - filelock=3.7.1=pyhd8ed1ab_0
+  - freetype=2.11.0=h70c0345_0
+  - giflib=5.2.1=h7b6447c_0
+  - hyperlink=21.0.0=pyhd3deb0d_0
+  - icu=58.2=hf484d3e_1000
+  - idna=3.3=pyhd8ed1ab_0
+  - incremental=21.3.0=pyhd8ed1ab_0
+  - itemadapter=0.6.0=pyhd8ed1ab_0
+  - itemloaders=1.0.4=pyhd8ed1ab_0
+  - jmespath=1.0.1=pyhd8ed1ab_0
+  - jpeg=9e=h7f8727e_0
+  - lcms2=2.12=h3be6417_0
   - ld_impl_linux-64=2.38=h1181459_1
   - libffi=3.3=he6710b0_2
   - libgcc-ng=11.2.0=h1234567_0
   - libgomp=11.2.0=h1234567_0
+  - libpng=1.6.37=hbc83047_0
   - libstdcxx-ng=11.2.0=h1234567_0
+  - libtiff=4.2.0=h2818925_1
   - libuuid=1.0.3=h7f8727e_2
+  - libwebp=1.2.2=h55f646e_0
+  - libwebp-base=1.2.2=h7f8727e_0
+  - libxml2=2.9.14=h74e7548_0
+  - libxslt=1.1.35=h4e12654_0
+  - lxml=4.9.1=py310h1edc446_0
+  - lz4-c=1.9.3=h295c915_1
   - ncurses=6.3=h7f8727e_2
   - openssl=1.1.1q=h7f8727e_0
+  - parsel=1.6.0=py_0
+  - pillow=9.2.0=py310hace64e9_1
   - pip=22.1.2=py310h06a4308_0
+  - protego=0.2.1=pyhd8ed1ab_0
+  - pyasn1=0.4.8=py_0
+  - pyasn1-modules=0.2.7=py_0
+  - pycparser=2.21=pyhd8ed1ab_0
+  - pydispatcher=2.0.5=py_1
+  - pymongo=3.12.0=py310h295c915_0
+  - pymysql=1.0.2=py310h06a4308_1
+  - pyopenssl=22.0.0=pyhd8ed1ab_0
+  - pysocks=1.7.1=py310hff52083_5
   - python=3.10.4=h12debd9_0
+  - python-dateutil=2.8.2=pyhd3eb1b0_0
+  - python_abi=3.10=2_cp310
+  - queuelib=1.6.2=pyhd8ed1ab_0
   - readline=8.1.2=h7f8727e_1
+  - redis=5.0.3=h7b6447c_0
+  - requests=2.28.1=py310h06a4308_0
+  - requests-file=1.5.1=pyh9f0ad1d_0
+  - scrapy=2.6.1=py310h06a4308_0
+  - selenium=3.141.0=py310h7f8727e_1000
+  - service_identity=18.1.0=py_0
   - setuptools=61.2.0=py310h06a4308_0
+  - six=1.16.0=pyh6c4a22f_0
+  - soupsieve=2.3.1=pyhd3eb1b0_0
   - sqlite=3.38.3=hc218d9a_0
   - tk=8.6.11=h1ccaba5_1
+  - tldextract=3.3.1=pyhd8ed1ab_0
+  - twisted=22.4.0=py310h5764c6d_0
+  - typing-extensions=4.3.0=hd8ed1ab_0
+  - typing_extensions=4.3.0=pyha770c72_0
   - tzdata=2022a=hda174b7_0
+  - urllib3=1.26.11=pyhd8ed1ab_0
+  - w3lib=1.22.0=pyh9f0ad1d_0
   - wheel=0.37.1=pyhd3eb1b0_0
   - xz=5.2.5=h7f8727e_1
   - zlib=1.2.12=h7f8727e_2
+  - zope.interface=5.4.0=py310h5764c6d_2
+  - zstd=1.5.2=ha4553b6_0
+  - pip:
+    - boto==2.49.0
+
