@@ -3,8 +3,45 @@
 不得不说Scrapyd对版本的依赖还是很严重的，版本不合适很容易报错。
 
 
+尝试更新Scrapyd 2.62版本
 
-## docker-compose bulid 
+
+
+导出环境 
+> conda env export > environment.yml
+## docker-compose build 
+
+构建命令
+```bash
+docker-compose  -f docker-compose-bulid.yaml up
+
+```
+
+
+
+```commandline
+
+version: "2.11"
+services:
+  scrapyd:
+    image: napoler/scrapyd:2.11
+    container_name: scrapyd1
+    #network_mode: host
+    volumes:
+      - /data/scrapyd1:/app
+    ports:
+      - 6801:6800
+    restart: unless-stopped
+
+
+
+
+
+```
+
+
+
+
 
 ```commandline
 cd app

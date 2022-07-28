@@ -1,0 +1,13 @@
+version: "2.11"
+services:
+  scrapyd:
+#    image: napoler/scrapyd:latest
+    image: napoler/scrapyd:2.11
+    container_name: scrapyd1
+    #network_mode: host
+#    volumes:
+      #- /path/app:/app
+    ports:
+      - 6800:6800
+    restart: unless-stopped
+
