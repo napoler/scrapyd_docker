@@ -4,7 +4,13 @@
 
 
 
-## docker-compose bulid 
+## docker-compose build 
+
+构建命令
+```bash
+docker-compose  -f docker-compose-bulid.yaml up
+
+```
 
 
 

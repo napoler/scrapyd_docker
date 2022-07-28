@@ -1,11 +1,11 @@
-version: "2.1"
+version: "2.6.2"
 services:
   scrapyd1:
 #    image: napoler/scrapyd:latest
-    image: napoler/scrapyd:2.11
-#    build:
-#      context: ./
-    container_name: scrapyd1
+#    image: napoler/scrapyd:2.11
+    build:
+      context: ./
+    container_name: scrapyd
     #network_mode: host
 #    volumes:
       #- /path/app:/app
