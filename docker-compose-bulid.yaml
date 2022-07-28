@@ -1,4 +1,4 @@
-version: "2.6.2"
+version: "2.6"
 services:
   scrapyd1:
 #    image: napoler/scrapyd:latest

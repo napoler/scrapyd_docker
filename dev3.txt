@@ -11,7 +11,7 @@ scrapy-splash==0.8.0
 tkitreadability==0.0.0.5.1
 
 # 下载图像用
-pillow==9.1.0
+Pillow==9.2.0
 # s3 使用
 boto==2.49.0
 botocore==1.27.39

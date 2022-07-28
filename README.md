@@ -3,7 +3,12 @@
 不得不说Scrapyd对版本的依赖还是很严重的，版本不合适很容易报错。
 
 
+尝试更新Scrapyd 2.62版本
 
+
+
+导出环境 
+> conda env export > environment.yml
 ## docker-compose build 
 
 构建命令
