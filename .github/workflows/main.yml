@@ -19,7 +19,8 @@ jobs:
 
     - name: Docker Login github
       # run: docker login -u napoler -p ${{ secrets.GIB_TOKENS }}
-      run:  docker login ghcr.io -u USERNAME -p {{ secrets.GIB_TOKENS }}
+      #run:  docker login ghcr.io -u USERNAME -p {{ secrets.GIB_TOKENS }}
+      run: echo {{ secrets.GIB_TOKENS }} | docker login ghcr.io -u USERNAME --password-stdin
 
     - name: rename the Docker Image
       run: docker tag napoler/scrapyd:1.60 ghcr.io/napoler/scrapyd:1.60
