@@ -22,4 +22,4 @@ jobs:
       run:  docker login ghcr.io -u USERNAME -p {{ secrets.GIB_TOKENS }}
 
     - name: Push the Docker Image to github
-      run: docker push napoler/scrapyd:1.60
+      run: docker push ghcr.io/napoler/scrapyd:1.60
