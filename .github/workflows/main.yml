@@ -31,6 +31,6 @@ jobs:
       with:
         registry: ghcr.io
         username: "napoler"
-        password: ${{ secrets.PAT }}
+        password: ${{ secrets.GIB_TOKENS }}
         repository: napoler/scrapyd
         tags: 1.60
