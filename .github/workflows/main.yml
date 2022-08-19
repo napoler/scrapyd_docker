@@ -17,20 +17,20 @@ jobs:
     - name: Push the Docker Image
       run: docker push napoler/scrapyd:1.60
 
-    # - name: Docker Login github
-    #   # run: docker login -u napoler -p ${{ secrets.GIB_TOKENS }}
-    #   #run:  docker login ghcr.io -u USERNAME -p {{ secrets.GIB_TOKENS }}
-    #   run: echo ${{ secrets.GIB_TOKENS }} | docker login ghcr.io -u USERNAME --password-stdin
+    # # - name: Docker Login github
+    # #   # run: docker login -u napoler -p ${{ secrets.GIB_TOKENS }}
+    # #   #run:  docker login ghcr.io -u USERNAME -p {{ secrets.GIB_TOKENS }}
+    # #   run: echo ${{ secrets.GIB_TOKENS }} | docker login ghcr.io -u USERNAME --password-stdin
 
-    # - name: rename the Docker Image
-    #   run: docker tag napoler/scrapyd:1.60 ghcr.io/napoler/scrapyd:1.60
-    # - name: Push the Docker Image to github
-    #   run: docker push ghcr.io/napoler/scrapyd:1.60
-    - name: 'Build:dockerimage'
-      uses: docker/build-push-action@v1
-      with:
-        registry: ghcr.io
-        username: "napoler"
-        password: ${{ secrets.GIB_TOKENS }}
-        repository: napoler/scrapyd
-        tags: 1.60
+    # # - name: rename the Docker Image
+    # #   run: docker tag napoler/scrapyd:1.60 ghcr.io/napoler/scrapyd:1.60
+    # # - name: Push the Docker Image to github
+    # #   run: docker push ghcr.io/napoler/scrapyd:1.60
+    # - name: 'Build:dockerimage'
+    #   uses: docker/build-push-action@v2
+    #   with:
+    #     registry: ghcr.io
+    #     username: "napoler"
+    #     password: ${{ secrets.GIB_TOKENS }}
+    #     repository: napoler/scrapyd
+    #     tags: 1.60
