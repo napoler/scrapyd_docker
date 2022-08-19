@@ -21,5 +21,7 @@ jobs:
       # run: docker login -u napoler -p ${{ secrets.GIB_TOKENS }}
       run:  docker login ghcr.io -u USERNAME -p {{ secrets.GIB_TOKENS }}
 
+    - name: rename the Docker Image
+      run: docker tag napoler/scrapyd:1.60 ghcr.io/napoler/scrapyd:1.60
     - name: Push the Docker Image to github
       run: docker push ghcr.io/napoler/scrapyd:1.60
