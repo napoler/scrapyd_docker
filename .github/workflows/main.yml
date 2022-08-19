@@ -27,7 +27,7 @@ jobs:
     # - name: Push the Docker Image to github
     #   run: docker push ghcr.io/napoler/scrapyd:1.60
     - name: 'Build:dockerimage'
-      uses: docker/build-push-action@v2
+      uses: docker/build-push-action@v1
       with:
         registry: ghcr.io
         username: "napoler"
