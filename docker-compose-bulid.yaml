@@ -1,0 +1,15 @@
+version: "2.1"
+services:
+  scrapyd:
+    #    image: napoler/scrapyd:latest
+    image: napoler/scrapyd:1.60
+    build:
+      context: ./
+      # dockerfile: ../backend.Dockerfile
+    container_name: scrapyd
+    #network_mode: host
+    #    volumes:
+    #- /path/app:/app
+    ports:
+      - 6801:6800
+    restart: unless-stopped

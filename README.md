@@ -4,9 +4,18 @@
 
 
 
-## docker-compose bulid 
+## docker-compose bulid
 
 
+导出环境
+> conda env export > environment.yml
+## docker-compose build
+
+构建命令
+```bash
+docker-compose  -f docker-compose-bulid.yaml up
+
+```
 
 ```commandline
 
@@ -36,7 +45,7 @@ services:
 cd app
 docker-compose up
 
-#or 
+#or
 docker-compose up --build
 ```
 
