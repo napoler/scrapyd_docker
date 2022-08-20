@@ -16,7 +16,7 @@ django-apscheduler==0.3.0
 django-cors-headers==3.2.0
 djangorestframework==3.9.2
 fake-useragent==0.1.11
-gerapy==0.9.5
+gerapy==0.9.11
 gevent==21.12.0
 greenlet==1.1.2
 html2text==2020.1.16
