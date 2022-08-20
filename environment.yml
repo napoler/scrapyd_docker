@@ -6,7 +6,35 @@ channels:
 dependencies:
   - conda=4.13.0=py310hff52083_1
   - conda-content-trust=0.1.1=pyhd3eb1b0_0
+  - conda-package-handling=1.8.1=py310h5764c6d_1
   - python=3.10.4=h12debd9_0
+  - twisted=18.9.0
+  # - python_abi=3.10=2_cp310
+  # - queuelib=1.6.2=pyhd8ed1ab_0
+  # - readline=8.1.2=h7f8727e_1
+  # - ruamel_yaml=0.15.80=py310h6acc77f_1006
+  # - scrapy=2.6.1=py310h06a4308_0
+  # - selenium=3.141.0=py310h7f8727e_1000
+  # - service_identity=18.1.0=py_0
+  # - setuptools=61.2.0=py310h06a4308_0
+  # - six=1.16.0=pyh6c4a22f_0
+  # - soupsieve=2.3.1=pyhd3eb1b0_0
+  # - sqlite=3.38.3=hc218d9a_0
+  # - tk=8.6.11=h1ccaba5_1
+  # - tldextract=3.3.1=pyhd8ed1ab_0
+  # - tqdm=4.63.0=pyhd3eb1b0_0
+  # - twisted=22.4.0=py310h5764c6d_0
+  # - typing-extensions=4.3.0=hd8ed1ab_0
+  # - typing_extensions=4.3.0=pyha770c72_0
+  # - tzdata=2022a=hda174b7_0
+  # - urllib3=1.26.11=pyhd8ed1ab_0
+  # - w3lib=1.22.0=pyh9f0ad1d_0
+  # - wheel=0.37.1=pyhd3eb1b0_0
+  # - xz=5.2.5=h7f8727e_1
+  # - yaml=0.2.5=h7b6447c_0
+  # - zlib=1.2.12=h7f8727e_2
+  # - zope.interface=5.4.0=py310h5764c6d_2
+  # - zstd=1.5.2=ha4553b6_0
   # - pip:
   #   - apscheduler==3.7.0
   #   - async-timeout==4.0.2
