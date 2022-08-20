@@ -71,8 +71,6 @@ dependencies:
   - python_abi=3.10=2_cp310
   - queuelib=1.6.2=pyhd8ed1ab_0
   - readline=8.1.2=h7f8727e_1
-  - requests=2.28.1=py310h06a4308_0
-  - requests-file=1.5.1=pyh9f0ad1d_0
   - ruamel_yaml=0.15.80=py310h6acc77f_1006
   - scrapy=2.6.1=py310h06a4308_0
   - selenium=3.141.0=py310h7f8727e_1000
