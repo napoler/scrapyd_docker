@@ -4,9 +4,6 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - conda=4.13.0=py310hff52083_1
-  - conda-content-trust=0.1.1=pyhd3eb1b0_0
-  - conda-package-handling=1.8.1=py310h5764c6d_1
   - python=3.7.12
   - twisted=22.4.0
   # - python_abi=3.10=2_cp310
