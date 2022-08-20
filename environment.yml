@@ -67,7 +67,6 @@ dependencies:
   - pyopenssl=22.0.0=pyhd8ed1ab_0
   - pysocks=1.7.1=py310hff52083_5
   - python=3.10.4=h12debd9_0
-  - python-dateutil=2.8.2=pyhd3eb1b0_0
   - python_abi=3.10=2_cp310
   - queuelib=1.6.2=pyhd8ed1ab_0
   - readline=8.1.2=h7f8727e_1
