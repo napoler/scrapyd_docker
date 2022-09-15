@@ -12,4 +12,6 @@ COPY ./scrapyd.conf /etc/scrapyd/
 RUN pip install -r requirements.txt
 
 EXPOSE 6800
-CMD ["scrapyd"]
+# CMD ["scrapyd"]
+# CMD ["sh","start.sh"]
+CMD ["/app/start.sh"]

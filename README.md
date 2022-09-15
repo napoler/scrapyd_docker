@@ -7,13 +7,15 @@
 
 
 
-导出环境 
+导出环境
 > conda env export > environment.yml
-## docker-compose build 
+## docker-compose build
 
 构建命令
 ```bash
 docker-compose  -f docker-compose-bulid.yaml up
+# or
+docker build -t napoler/scrapyd:2.62 .
 
 ```
 
@@ -47,7 +49,7 @@ services:
 cd app
 docker-compose up
 
-#or 
+#or
 docker-compose up --build
 ```
 
