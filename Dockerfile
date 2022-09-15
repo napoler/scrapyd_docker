@@ -9,7 +9,8 @@ COPY ./scrapyd.conf /etc/scrapyd/
 # 更新 环境
 # RUN conda env update  --file environment.yml  --prune \
 #     && pip install -r requirements.txt -i http://mirrors.aliyun.com/pypi/simple/
-RUN pip install -r requirements.txt
+RUN pip install -r requirements.txt && \
+    chmod +x /app/start.sh
 
 EXPOSE 6800
 # CMD ["scrapyd"]

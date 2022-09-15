@@ -57,6 +57,8 @@ docker-compose up --build
 
 ```
 docker run -d -p 6800:6800 -v /path/app:/app napoler/scrapyd:v0.1
+
+docker run -d -p 6800:6800 --restart unless-stopped napoler/scrapyd:2.62
 # 镜像文件可选
 ```
 
