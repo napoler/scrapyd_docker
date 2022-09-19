@@ -21,8 +21,14 @@ requests>=2.22.0
 Scrapy==2.6.2
 scrapy-fake-useragent==1.4.4
 scrapy-redis==0.7.3
+# scrapy-redis==0.7.1
 scrapy-splash==0.8.0
 tkitreadability ==0.0.0.5.3
 tqdm>=4.64.0
 Twisted==22.4.0
 scrapyd==1.3.0
+
+
+# 新添加 微软无头浏览器
+# scrapy-playwright==0.0.17
+scrapy-playwright==0.0.21
